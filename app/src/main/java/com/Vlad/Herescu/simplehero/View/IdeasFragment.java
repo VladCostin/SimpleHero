@@ -15,7 +15,7 @@ import android.widget.ListView;
 
 import com.Vlad.Herescu.simplehero.model.Idea;
 import com.Vlad.Herescu.simplehero.R;
-import com.Vlad.Herescu.simplehero.logic.BusinessLogic.ManagerSingleton;
+import com.Vlad.Herescu.simplehero.BusinessLogic.ManagerSingleton;
 
 import java.util.List;
 import java.util.Observable;

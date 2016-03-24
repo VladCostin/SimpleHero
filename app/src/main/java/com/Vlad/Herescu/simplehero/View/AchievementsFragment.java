@@ -1,18 +1,16 @@
 package com.Vlad.Herescu.simplehero.View;
 
 import android.app.Activity;
-import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.Vlad.Herescu.simplehero.R;
-import com.Vlad.Herescu.simplehero.logic.BusinessLogic.AchievementLogic;
+import com.Vlad.Herescu.simplehero.BusinessLogic.AchievementLogic;
 import com.Vlad.Herescu.simplehero.model.Idea;
 import com.Vlad.Herescu.simplehero.model.Idea_Type;
 import com.Vlad.Herescu.simplehero.model.MileStone;

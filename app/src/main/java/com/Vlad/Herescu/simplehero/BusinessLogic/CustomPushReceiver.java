@@ -1,11 +1,10 @@
-package com.Vlad.Herescu.simplehero.logic.BusinessLogic;
+package com.Vlad.Herescu.simplehero.BusinessLogic;
 
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
 import com.Vlad.Herescu.simplehero.DatabaseHandler.DatabaseHandler;
-import com.Vlad.Herescu.simplehero.View.IdeasFragment;
 import com.Vlad.Herescu.simplehero.View.MainActivity;
 import com.parse.ParsePushBroadcastReceiver;
 

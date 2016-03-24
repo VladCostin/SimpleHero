@@ -1,9 +1,8 @@
-package com.Vlad.Herescu.simplehero.logic.BusinessLogic;
+package com.Vlad.Herescu.simplehero.BusinessLogic;
 
-import com.Vlad.Herescu.simplehero.DatabaseHandler.DatabaseHandler;
-import com.Vlad.Herescu.simplehero.logic.BusinessLogic.FacebookLogic.FacebookLogic;
-import com.Vlad.Herescu.simplehero.logic.BusinessLogic.FacebookLogic.FacebookLogicITf;
-import com.Vlad.Herescu.simplehero.logic.BusinessLogic.FacebookLogic.FriendsManager;
+import com.Vlad.Herescu.simplehero.BusinessLogic.FacebookLogic.FacebookLogic;
+import com.Vlad.Herescu.simplehero.BusinessLogic.FacebookLogic.FacebookLogicITf;
+import com.Vlad.Herescu.simplehero.BusinessLogic.FacebookLogic.FriendsManager;
 
 /**
  * Created by admin on 2/17/2016.

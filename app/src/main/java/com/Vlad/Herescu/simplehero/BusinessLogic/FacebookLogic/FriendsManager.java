@@ -1,4 +1,4 @@
-package com.Vlad.Herescu.simplehero.logic.BusinessLogic.FacebookLogic;
+package com.Vlad.Herescu.simplehero.BusinessLogic.FacebookLogic;
 
 import android.util.Log;
 

@@ -1,6 +1,5 @@
 package com.Vlad.Herescu.simplehero.View;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
@@ -12,11 +11,10 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.Vlad.Herescu.simplehero.logic.BusinessLogic.IdeasManager;
 import com.Vlad.Herescu.simplehero.model.Idea;
 import com.Vlad.Herescu.simplehero.model.Idea_Status;
 import com.Vlad.Herescu.simplehero.R;
-import com.Vlad.Herescu.simplehero.logic.BusinessLogic.ManagerSingleton;
+import com.Vlad.Herescu.simplehero.BusinessLogic.ManagerSingleton;
 
 public class ActivitySeeIdea extends AppCompatActivity implements View.OnClickListener {
 

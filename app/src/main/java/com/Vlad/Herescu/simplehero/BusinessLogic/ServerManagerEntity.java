@@ -1,9 +1,8 @@
-package com.Vlad.Herescu.simplehero.logic.BusinessLogic;
+package com.Vlad.Herescu.simplehero.BusinessLogic;
 
 import android.util.Log;
 
 import com.Vlad.Herescu.simplehero.DatabaseHandler.AttributesConstants;
-import com.Vlad.Herescu.simplehero.model.User;
 import com.parse.FindCallback;
 import com.parse.ParseInstallation;
 import com.parse.ParseObject;

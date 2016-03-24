@@ -1,9 +1,9 @@
-package com.Vlad.Herescu.simplehero.logic.BusinessLogic.FacebookLogic;
+package com.Vlad.Herescu.simplehero.BusinessLogic.FacebookLogic;
 
 import android.os.Bundle;
 import android.util.Log;
 
-import com.Vlad.Herescu.simplehero.logic.BusinessLogic.ManagerSingleton;
+import com.Vlad.Herescu.simplehero.BusinessLogic.ManagerSingleton;
 import com.facebook.AccessToken;
 import com.facebook.GraphRequest;
 import com.facebook.GraphResponse;

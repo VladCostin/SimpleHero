@@ -1,4 +1,4 @@
-package com.Vlad.Herescu.simplehero.logic.BusinessLogic;
+package com.Vlad.Herescu.simplehero.BusinessLogic;
 
 
 import org.json.JSONObject;

@@ -13,7 +13,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.Vlad.Herescu.simplehero.logic.BusinessLogic.ManagerSingleton;
+import com.Vlad.Herescu.simplehero.BusinessLogic.ManagerSingleton;
 import com.Vlad.Herescu.simplehero.model.Idea;
 import com.Vlad.Herescu.simplehero.R;
 

@@ -15,7 +15,7 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.Vlad.Herescu.simplehero.logic.BusinessLogic.ManagerSingleton;
+import com.Vlad.Herescu.simplehero.BusinessLogic.ManagerSingleton;
 import com.Vlad.Herescu.simplehero.R;
 
 public class ActivityAddIdea extends AppCompatActivity {
