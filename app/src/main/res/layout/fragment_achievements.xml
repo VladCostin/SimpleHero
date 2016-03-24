@@ -1,0 +1,174 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.Vlad.Herescu.simplehero.View.AchievementsFragment"
+    android:orientation="vertical"
+    android:weightSum="1"
+    >
+
+    <!--
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/imageViewMileStone"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:src="@drawable/hero1"
+        android:contentDescription="spiderManPicture"
+
+        />
+        -->
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="0.3">
+        <TextView
+            android:id="@+id/textViewMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="The people rely on you Spidey, very well done!"
+            android:textColor="@color/cyan"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/textViewScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:text="Your Total Score : 1025"
+            android:textColor="@color/cyan"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            />
+        <!--
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="See evolution"
+            android:layout_gravity="center"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:background="@drawable/button_round"
+
+            android:textColor="@color/white"
+            />
+            -->
+    </LinearLayout>
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="0dp"
+            android:layout_weight="0.7">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_volunteer"
+                    android:layout_marginRight="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/textViewScoreVol"
+                    android:layout_width="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_smile"
+                android:layout_marginRight="5dp"
+                />
+
+            <TextView
+                android:id="@+id/textViewScoreSmile"
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+
+                android:layout_height="match_parent"
+                android:gravity="center"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            >
+            <ImageView
+                android:id="@+id/imageViewIdeas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_dollar"
+                android:layout_marginRight="5dp"
+                />
+
+            <TextView
+                android:id="@+id/textViewScoreDollar"
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            >
+            <ImageView
+                android:id="@+id/imageViewThanks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_thanks"
+                android:layout_marginRight="5dp"
+                />
+
+            <TextView
+                android:id="@+id/textViewScoreThanks"
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

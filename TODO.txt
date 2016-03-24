@@ -1,0 +1,7 @@
+sa fac un timer, o data la 10 secunde extrage iar datele
+timerul ia in considerare numai datele noi, mereu ia de la 0
+sa compar datele cu primite cu cele afisate + cele facute de catre utilizator, daca se afla deja printre acestea, nu le mai afisez
+	altfel, afisez de la inceput
+sa fac sa mearga butonul de : I can do this, ia itemul si il salveaza in baza de date, la To Do
+La To Do, extrag ce este in baza de date, afisez la fel ca la lista de itemuri nefacute
+pot sa dau click, si intru iar in descrierea itemului, cu butonul : FInished this

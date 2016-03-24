@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal">#009688</color>
+    <color name="cyan">#0097a7</color>
+    <color name="cyanDark">#006064</color>
+    <color name="white">#FFFFFF</color>
+    <color name="secondaryColor">#FFAD00</color>
+    <color name="black">#000000</color>
+
+
+    <color name="blueFont">#001E70</color>
+    <color name="yellowFont">#FFAD00</color>
+    <color name="ornageFont">#FF7800</color>
+
+
+    <color name="colorAccent">#FFAD00</color>
+    <color name="colorPrimaryDark">#00838F</color>
+</resources>

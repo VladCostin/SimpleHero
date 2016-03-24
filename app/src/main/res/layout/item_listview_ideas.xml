@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:src="@drawable/volunteer_3"
+    />
+
+    <TextView
+        android:id="@+id/textViewIdea"
+        android:layout_width="0dp"
+        android:textSize="20dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/blueFont"
+        android:layout_weight="0.5"
+        />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        />
+
+</LinearLayout>
+    -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:gravity="center_horizontal">
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        />
+
+
+    <ImageView
+        android:id="@+id/imageViewIdeas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_volunteer"
+        android:layout_marginRight="5dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewIdea"
+        android:layout_width="0dp"
+        android:textSize="20dp"
+        android:layout_weight="0.7"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/blueFont"
+        />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        />
+
+</LinearLayout>
